@@ -220,6 +220,38 @@ nav ul li:hover {
   margin-bottom: 5px;
 }
 
+/****************** Activites ********************/
+.activites {
+  padding: 30px;
+}
+
+.activites-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activites-card {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.activites-img-container {
+  width: 297.5px;
+  height: 380px;
+  overflow: hidden;
+}
+.activites-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activites-card-title {
+  font-weight: 700;
+  padding: 20px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
