@@ -125,6 +125,24 @@ nav ul li:hover {
   background-color: var(--filter-bg-color);
 }
 
+/****************** Message resultat *****************************/
+.result-message {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.result-message i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--filter-bg-color);
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+}
+
 /****************** Hebergements And Populaires ***/
 .hebergements-and-populaires {
   display: flex;
@@ -225,6 +243,10 @@ nav ul li:hover {
   padding: 30px;
 }
 
+.activites-title {
+  padding: 15px 0;
+}
+
 .activites-cards {
   display: flex;
   justify-content: space-between;
@@ -250,6 +272,26 @@ nav ul li:hover {
 .activites-card-title {
   font-weight: 700;
   padding: 20px;
+}
+
+/****************** Footer ********************/
+footer {
+  display: flex;
+  background-color: var(--main-bg-color);
+  margin-top: 30px;
+}
+
+.footer-article {
+  width: 33.3%;
+  padding: 0 20px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0px;
+  list-style: none;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
