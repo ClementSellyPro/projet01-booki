@@ -96,12 +96,64 @@ nav ul li:hover {
   border-top: 3px solid var(--main-color);
 }
 
+/****************** Slogan *****************************/
+.slogan-section {
+  padding: 15px 0;
+}
+
+.slogan-title {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+/****************** Recherche *****************************/
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 377px;
+}
+
+.recherche-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 49px;
+  width: 50px;
+  border-radius: 15px 0 0 15px;
+  background-color: var(--main-bg-color);
+  color: black;
+}
+
+.recherche-input {
+  flex-grow: 1;
+  height: 45px;
+  border: none;
+  border-top: 1px solid var(--main-bg-color);
+  border-bottom: 1px solid var(--main-bg-color);
+}
+
+.recherche-btn {
+  height: 49px;
+  padding: 15px 16px;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.recherche-btn:hover {
+  cursor: pointer;
+}
+
 /****************** Filtres *****************************/
 .filter-section {
   display: flex;
   gap: 15px;
   align-items: center;
-  /* border: 2px solid red; */
+  margin-top: 20px;
 }
 
 .filters {
@@ -109,7 +161,6 @@ nav ul li:hover {
   gap: 15px;
   list-style: none;
   padding: 0;
-  /* border: 2px solid blue; */
 }
 
 .filter-item a {
