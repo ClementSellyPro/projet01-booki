@@ -5,9 +5,9 @@
 
 :root {
   --main-color: #0065fc;
-  --hover-color: #deebff;
   --main-bg-color: #f2f2f2;
   --filter-bg-color: #deebff;
+  --gray: #d9d9d9;
 }
 
 .fa-solid {
@@ -87,13 +87,42 @@ nav ul {
   margin: 0;
 }
 
-nav ul a li {
+nav ul li {
   padding-top: 14px;
 }
 
-nav ul a:hover {
+nav ul li:hover {
   color: var(--main-color);
   border-top: 3px solid var(--main-color);
+}
+
+/****************** Filtres *****************************/
+.filter-section {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  /* border: 2px solid blue; */
+}
+
+.filter-item a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 19px;
+  border-radius: 25px;
+  border: 2px solid var(--gray);
+}
+
+.filter-item a:hover {
+  background-color: var(--filter-bg-color);
 }
 
 /****************** Hebergements And Populaires ***/
