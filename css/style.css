@@ -33,6 +33,10 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 22px;
+}
+
 .section-title {
   margin: 0;
   font-size: 22px;
@@ -126,7 +130,12 @@ form {
 }
 
 .recherche-input {
+  box-sizing: border-box;
   flex-grow: 1;
+  width: 200px;
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 18px;
   height: 45px;
   border: none;
   border-top: 1px solid var(--main-bg-color);
@@ -209,15 +218,30 @@ form {
 
 /****************** Hebergements ******************/
 .hebergements {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   width: 65%;
 }
+
+.hebergements-title {
+  margin: 0;
+}
+
 .hebergements-cards {
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
+  flex-direction: column;
+  gap: 30px;
 }
+
+.hebergements-cards-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
 .hebergements-card {
-  width: calc(33% - 20px);
+  width: 31%;
 }
 
 .hebergements-card img {
@@ -241,7 +265,7 @@ form {
 
 .afficher-plus {
   font-weight: 700;
-  margin-bottom: -20px;
+  font-size: 18px;
 }
 
 /****************** Populaires ********************/
