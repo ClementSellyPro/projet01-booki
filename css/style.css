@@ -341,12 +341,13 @@ form {
 }
 
 .activites-card {
+  width: 23%;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .activites-img-container {
-  width: 297.5px;
+  width: 100%;
   height: 380px;
   overflow: hidden;
 }
@@ -428,18 +429,14 @@ footer {
 
   /****************** Activites ***************/
   .activites-card {
-    width: 193.5px;
     height: 270px;
   }
 
   .activites-img-container {
-    position: relative;
     height: 200px;
   }
 
   .activites-img {
-    position: absolute;
-    left: -50px;
     object-fit: cover;
   }
 }
