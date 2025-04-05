@@ -505,7 +505,7 @@ footer {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
   }
 
-  .recherche-btn p {
+  .recherche-btn span {
     display: none;
   }
 
@@ -534,7 +534,7 @@ footer {
 
   /***************** Message resultat **********/
   .result-message i {
-    width: 34px;
+    /* width: 33px; */
   }
 
   /************ Hebergements And Populaires ***/
