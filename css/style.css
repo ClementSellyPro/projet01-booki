@@ -241,19 +241,13 @@ form {
 }
 
 .hebergements-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.hebergements-cards-row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
 .hebergements-card {
-  width: 31%;
+  width: 100%;
 }
 
 .hebergements-card img {
@@ -358,8 +352,10 @@ form {
 }
 
 .activites-card-title {
+  font-size: 16px;
   font-weight: 700;
   padding: 20px;
+  margin: 0;
 }
 
 /****************** Footer ********************/
@@ -576,10 +572,7 @@ footer {
   }
 
   .hebergements-cards {
-    gap: 15px;
-  }
-
-  .hebergements-cards-row {
+    display: flex;
     flex-direction: column;
     gap: 15px;
   }
